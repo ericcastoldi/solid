@@ -44,11 +44,25 @@
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.1.11\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="01-SingleResponsibility-ViolacaoCorrigida.cs" />
+    <Compile Include="01-SingleResponsibility-Violacao.cs" />
+    <Compile Include="02-OpenClosed-Violacao.cs" />
+    <Compile Include="02-OpenClosed-ViolacaoCorrigida.cs" />
+    <Compile Include="03-Liskov-Violacao.cs" />
+    <Compile Include="03-Liskov-ViolacaoCorrigida.cs" />
+    <Compile Include="04-InterfaceSegregation-Violacao.cs" />
+    <Compile Include="04-InterfaceSegregation-ViolacaoCorrigida.cs" />
+    <Compile Include="05-DependencyInversion-Violacao.cs" />
+    <Compile Include="05-DependencyInversion-ViolacaoCorrigida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
